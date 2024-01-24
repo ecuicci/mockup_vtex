@@ -69,7 +69,7 @@ exports.callVtex = async(req,res,next) => {
             };
         }
 
-        if (digito_orden !="123456"){
+        if (digito_orden !="255501"){
             response={ 
                     "data": "Orden No Encontrada"     
             };
