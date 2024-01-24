@@ -14,6 +14,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/alive', ExampleController.alive);
+router.post('/login', VtexController.login);
 router.get('/call-vtex', VtexController.callVtex);
 router.post('/call-vtex', VtexController.callVtex);
 router.get('/create-case-crm', VtexController.crearCaso);
