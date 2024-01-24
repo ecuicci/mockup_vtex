@@ -17,7 +17,7 @@ exports.callVtex = async(req,res,next) => {
         var response = "";
         // Enviar una respuesta JSON
 
-        if (dni==33333333 && digito_orden ==123456){
+        if (dni==33333333 && digito_orden ==255501){
         response={ 
             data: {
                     "orderId": "1353962052555-01",
@@ -32,7 +32,7 @@ exports.callVtex = async(req,res,next) => {
                 }
             };
         }
-        if (dni==44444444 && digito_orden ==123456){
+        if (dni==44444444 && digito_orden ==255501){
             response={ 
                 data: {
                         "orderId": "1353962052555-01",
